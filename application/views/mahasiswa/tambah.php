@@ -30,7 +30,7 @@
                             <small class="form-text text-danger"><?= form_error('email'); ?></small>
                         </div>
                         <div class="form-group">
-                            <label for="jurusan"></label>
+                            <label for="jurusan">Jurusan</label>
                             <select name="jurusan" id="jurusan" class="form-control">
                                 <option value="Teknik Informatika">Teknik Informatika</option>
                                 <option value="Teknik Industri">Teknik Industri</option>
