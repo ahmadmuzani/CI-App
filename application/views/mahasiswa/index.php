@@ -28,8 +28,8 @@
       </div>
   <?php endif; ?>
   <ul class="list-group">
-    <?php foreach ($mahasiswa as mhs) : ?>
-    <li class="lis-group-item">
+    <?php foreach ($mahasiswa as $mhs) : ?>
+    <li class="list-group-item">
       <?= $mhs['nama']; ?>
       <a href="<?= base_url(); ?>mahasiswa/hapus/<?= $mhs['$id']; ?>" class="badge badge-danger float-right tombol-hapus">hapus</a>
       <a href="<?= base_url(); ?>mahasiswa/ubah/<?= $mhs['$id']; ?>" class="badge badge-success float-right">ubah</a>
